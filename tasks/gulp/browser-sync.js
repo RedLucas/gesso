@@ -10,12 +10,6 @@
 
 module.exports = function (gulp, browserSync) {
   return function () {
-    return browserSync.init({
-      open: false, // Don’t automatically open browser inside the vm.
-      proxy: {
-        target: "localhost:8080", // Use non-varnished server in the vm.
-        ws: true // Enable websockets.
-      }
-    });
+    
   };
 };

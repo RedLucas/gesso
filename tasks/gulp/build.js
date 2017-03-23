@@ -7,7 +7,7 @@
 module.exports = function (gulp, runSequence) {
   return function (done) {
     return runSequence(
-      ['build-css', 'compile-pattern-lab', 'minify-js'],
+      ['build-css'],
       done
     );
   };
